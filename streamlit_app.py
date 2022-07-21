@@ -20,6 +20,3 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['avacoda',
 # Display the table on the page
 streamlit.dataframe(my_fruit_list)
 
-#lets pick list here so they pick the fruit they want to include
-stramlist.multiselect("pick some fruits:",list(my_fruit_list.index),['avacado','strawberries'])
-
